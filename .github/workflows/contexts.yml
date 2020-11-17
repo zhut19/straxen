@@ -8,6 +8,7 @@ name: Update context collection
 on:
   release:
     types: [published]
+  workflow_dispatch
  
 jobs:
   update:
